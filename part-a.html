@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>תרגיל JavaScript 1 - חלק א'</title>
+        <script>
+            // א1
+            const fullname = "רחל כהן", city = "ירושלים", isStudent = true;
+            let age = 20;
+            console.log(`שמי ${fullname}, גילי ${age}, אני${isStudent ? '' : ' לא'} תלמידה וגרה ב${city}`);
+            age++;
+            console.log(`שמי ${fullname}, גילי ${age}, אני${isStudent ? '' : ' לא'} תלמידה וגרה ב${city}`);
+
+            // Uncaught TypeError: Assignment to constant variable.
+            // fullname = "חני לוי";
+        </script>
+    </head>
+
+    <body>
+        <h1>חלק א'</h1>
+        <p>פתחי את הקונסולה (F12) כדי לראות את התוצאות.</p>
+    </body>
+
+</html>
